@@ -32,6 +32,8 @@ public class Main {
         frutas.stream()
             .filter(fruta -> fruta.contains("m"))
             .forEach(fruta -> System.out.println(fruta));
+
+        
     }
 
     
